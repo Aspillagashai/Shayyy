@@ -1,0 +1,61 @@
+<html>
+<head> 
+     <meta charset ="UTF-8">
+     <meta name="viewport" content="width=device -width, initial-scale=1.0">
+     <meta http-equiv="X-UA-compatible" content="ie=edge">
+     <link rel ="stylesheet" href="style.css" type="text/css" media="all" />
+
+
+
+<title>pt.java2</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("may gus2 aq sau " + Name + ",matagal na..."); 
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1>ganda ko noh?</h1>
+<img src="https://c.tenor.com/sZPWbZj_QI8AAAAi/kakaotalk-emoticon.gif" height="200" />
+<h1 style="#">mag oo kana!</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" oo " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" hindi " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
